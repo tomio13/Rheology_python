@@ -89,7 +89,7 @@ def GetData(ts, poslist, indx=0, order=1, resolution=1.0, \
         return ([],[])
 
     if indx < 0 or indx  > len(poslist):
-        print("invalid index", %indx)
+        print(f'invalid index: {indx}')
     #end if
 
     #default time array is based on the indexes:
